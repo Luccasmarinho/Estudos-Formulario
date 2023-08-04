@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário Exame</title>
+</head>
+<body>
+    <header>
+        <h2>MedicalCenter</h2>
+    </header>
+    <main>
+        <h1>Formulário de exame</h1>
+        <p>Preencha o formulário abaixo com suas informações.</p>
+        <form action="https://www.devmedia.com.br/codigos/formularios/aula6">
+            <label for="nome" class="destaque">Nome</label>
+            <input type="text" name="nome" required id="nome" placeholder="Digite seu nome">
+
+            <label for="data-nascimento" class="destaque">Data de Nascimento</label>
+            <input type="date" name="data" required id="data-nascimento">
+
+            <label for="email" class="destaque">Email</label>
+            <input type="email" name="email" required id="email" placeholder="exemplo@exemplo.com">
+            <section class="tatuagem">
+                <h3 class="destaque">Você possui tatuagem?</h3>
+                <div>
+                    <input type="radio" name="tatugem" value="Sim" required id="sim">
+                    <label for="sim">Sim</label>
+                </div>
+                <div>
+                    <input type="radio" name="tatugem" value="Não" required id="nao">
+                    <label for="nao">Não</label>
+                </div>
+            </section>
+    
+            <section class="doacao-sangue">
+                <h3 class="destaque">Última vez que doou sangue?</h3>
+                <div>
+                    <input type="radio" name="doacao-sangue" value="6 meses" required id="6-meses">
+                    <label for="6-meses">Nos últimos 6 meses</label>
+                </div>
+                <div>
+                    <input type="radio" name="doacao-sangue" value="1 ano" required id="1-ano">
+                    <label for="1-ano">Há 1 ano ou mais</label>
+                </div>
+                <div>
+                    <input type="radio" name="doacao-sangue" value="nunca" required id="nunca">
+                    <label for="nunca">Nunca doei sangue</label>
+                </div>
+            </section>
+            <button type="submit">Enviar Formulário</button>
+        </form>
+    </main>
+    <footer>
+        <p>Copyright 2023 - MedicalCenter</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+}
+
+header {
+    background-color: rebeccapurple;
+    width: 100%;
+    color: white;
+    padding: 12px;
+    text-shadow: 1px 1px 5px black;
+}
+
+main {
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 25px;
+    margin-bottom: 80px;
+}
+
+main h1 {
+    color: rebeccapurple;
+}
+
+main p {
+    line-height: 30px;
+   
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 300px;
+    width: 100%;
+}
+
+fieldset legend {
+    color: white;
+    font-weight: bold;
+    background-color: rebeccapurple;
+    padding: 5px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+}
+
+fieldset div {
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+}
+
+fieldset label {
+    font-weight: bold;
+    color: rebeccapurple;
+}
+
+fieldset input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    background-color: rgba(102, 51, 153, 0.111);
+    border-bottom: 1px solid rgb(73, 36, 110);
+    font-size: 1rem;
+   
+}
+
+button {
+    padding: 8px;
+    background-color: rebeccapurple;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+
+button:hover {
+    background-color: rgb(61, 31, 91);
+}
+
+footer {
+    background-color: white;
+    padding: 12px;
+    position: fixed;
+    bottom: 0;
+    color: rebeccapurple;
+    width: 100%;
+    text-align: center;
+}
+

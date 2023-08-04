@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <header>
+        <h2>Revista</h2>
+    </header>
+    <main>
+        <h1>Cadastro</h1>
+        <p>Estamos lançando uma nova revista e enviaremos o primeiro exemplar grátis para todos que se cadastrarem hoje no site.</p>
+        <form action="https://www.devmedia.com.br/codigos/formularios/aula8/">
+            <fieldset>
+                <legend>Dados de contato</legend>
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Exemplo@email.com" required>
+                </div>
+                <div>
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" name="nome" id="telefone" placeholder="(XX) XXXXX-XXXX" required>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Dados de entrega</legend>
+                <div>
+                    <label for="endereco">Endereço:</label>
+                    <input type="text" name="Endereco" id="endereco" placeholder="Rua, Avenida, Travessa" required>
+                </div>
+                <div>
+                    <label for="numero">Número:</label>
+                    <input type="number" name="numero" id="numero" required>
+                </div>
+                <div>
+                    <label for="complemento">Complemento:</label>
+                    <input type="text" name="complemento" id="complemento">
+                </div>
+            </fieldset>
+            <button type="submit">Cadastrar</button>
+        </form>
+    </main>
+    <footer>
+        <p>Copyright 2023 - Revista</p>
+    </footer>
+</body>
+</html>
